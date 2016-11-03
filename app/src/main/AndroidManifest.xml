@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fapisan.anvtech.anant.areyouatruefapsian">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.about" />
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.help" />
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q1" />
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q3"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q2"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q4"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q5"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q6"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q7"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q8"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q9"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q10"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q11"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.q12"/>
+        <activity android:name="fapisan.anvtech.anant.areyouatruefapsian.passed"/>
+
+
+
+    </application>
+
+</manifest>
